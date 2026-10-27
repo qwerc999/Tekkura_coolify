@@ -1,6 +1,6 @@
 <div>
     <x-slot:title>
-        {{ data_get_str($server, 'name')->limit(10) }} > Docker Cleanup | Coolify
+        {{ data_get_str($server, 'name')->limit(10) }} > Docker Cleanup | Tekkura
     </x-slot>
 
     <livewire:server.navbar :server="$server" />

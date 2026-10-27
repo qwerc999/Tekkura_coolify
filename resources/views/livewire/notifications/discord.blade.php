@@ -1,6 +1,6 @@
 <div>
     <x-slot:title>
-        Discord Notifications | Coolify
+        Discord Notifications | Tekkura
     </x-slot>
 
     <x-notification.settings-layout>

@@ -1,5 +1,5 @@
 <div>
-    <x-slot:title>{{ data_get_str($project, 'name')->limit(10) }} > Edit | Coolify</x-slot>
+    <x-slot:title>{{ data_get_str($project, 'name')->limit(10) }} > Edit | Tekkura</x-slot>
     <div class="w-full max-w-none">
         <header class="mb-5">
             <h1 class="truncate text-[24px]! leading-7! font-semibold! tracking-tight!">{{ $project->name }}</h1>

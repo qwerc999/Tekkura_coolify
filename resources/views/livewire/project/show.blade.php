@@ -1,6 +1,6 @@
 <div>
     <x-slot:title>
-        {{ data_get_str($project, 'name')->limit(10) }} > Environments | Coolify
+        {{ data_get_str($project, 'name')->limit(10) }} > Environments | Tekkura
     </x-slot>
     <div x-data="projectEnvironments()" class="w-full">
         <header class="mb-5 flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">

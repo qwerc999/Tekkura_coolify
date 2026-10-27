@@ -1,7 +1,7 @@
 <div>
     <x-slot:title>
         {{ data_get_str($service, 'name')->limit(10) }} >
-        {{ data_get_str($serviceDatabase, 'name')->limit(10) }} > Backups | Coolify
+        {{ data_get_str($serviceDatabase, 'name')->limit(10) }} > Backups | Tekkura
     </x-slot>
 
     <livewire:project.service.heading :service="$service" :parameters="$parameters" :query="$query" />

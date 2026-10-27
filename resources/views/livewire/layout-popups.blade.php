@@ -1,6 +1,6 @@
 <div x-data="{
     popups: {
-        sponsorship: true,
+        sponsorship: false,
         notification: true,
         realtime: false,
     },
@@ -11,13 +11,9 @@
     reminderCollapseAfter: 10000,
     isDevelopment: {{ isDev() ? 'true' : 'false' }},
     init() {
-        this.popups.sponsorship = !this.isDevelopment && this.shouldShowMonthlyPopup('popupSponsorship');
+        this.popups.sponsorship = false;
         this.popups.notification = this.shouldShowMonthlyPopup('popupNotification');
         this.popups.realtime = localStorage.getItem('popupRealtime');
-
-        if (this.popups.sponsorship) {
-            this.scheduleReminderCollapse('sponsorship');
-        }
 
         if (this.popups.notification) {
             this.scheduleReminderCollapse('notification');
@@ -37,7 +33,7 @@
                         if (checkNumber > 5) {
                             this.popups.realtime = true;
                             console.error(
-                                'Coolify could not connect to its real-time service. This will cause unusual problems on the UI if not fixed! Please check the related documentation (https://coolify.io/docs/knowledge-base/cloudflare/tunnels/overview) or get help on Discord (https://coollabs.io/discord).)'
+                                'Tekkura could not connect to its real-time service. This will cause unusual problems on the UI if not fixed!'
                             );
                         }
 

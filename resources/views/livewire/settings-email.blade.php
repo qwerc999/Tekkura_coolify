@@ -1,6 +1,6 @@
 <div>
     <x-slot:title>
-        Transactional Email | Coolify
+        Transactional Email | Tekkura
     </x-slot>
 
     <x-settings.layout>

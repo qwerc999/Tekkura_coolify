@@ -30,7 +30,7 @@
         };
         window.applyStoredTheme = () => {
             const theme = localStorage.theme === 'purple' ? 'custom' : (localStorage.theme || 'dark');
-            const themeColor = localStorage.themeColor || '#6b16ed';
+            const themeColor = localStorage.themeColor || '#06b6d4';
             const customMode = localStorage.customMode || 'dark';
             const isDark = theme === 'dark'
                 || (theme === 'custom' && customMode === 'dark')
@@ -41,13 +41,13 @@
             document.documentElement.dataset.theme = theme === 'custom' ? 'custom' : (isDark ? 'dark' : 'light');
             document.documentElement.style.setProperty('--theme-base-color', window.hexToOklch(themeColor));
             document.documentElement.style.setProperty('--theme-accent-foreground', window.themeAccentForeground(themeColor));
-            document.querySelector('meta[name=theme-color]')?.setAttribute('content', isDark ? '#101010' : '#ffffff');
+            document.querySelector('meta[name=theme-color]')?.setAttribute('content', isDark ? '#080c15' : '#ffffff');
         };
         // Single source for the theme controls Alpine state, shared by the
         // Appearance page and the profile dropdown via x-data="themeControls()".
         window.themeControls = () => ({
             theme: localStorage.getItem('theme') === 'purple' ? 'custom' : (localStorage.getItem('theme') || 'dark'),
-            themeColor: localStorage.getItem('themeColor') || '#6b16ed',
+            themeColor: localStorage.getItem('themeColor') || '#06b6d4',
             customMode: localStorage.getItem('customMode') || 'dark',
             pageWidth: localStorage.getItem('pageWidth') || 'full',
             themeColorFrame: null,
@@ -110,7 +110,7 @@
                 document.documentElement.dataset.theme = this.theme === 'custom' ? 'custom' : (isDark ? 'dark' : 'light');
                 document.documentElement.style.setProperty('--theme-base-color', window.hexToOklch(this.themeColor));
                 document.documentElement.style.setProperty('--theme-accent-foreground', window.themeAccentForeground(this.themeColor));
-                document.querySelector('meta[name=theme-color]')?.setAttribute('content', isDark ? '#101010' : '#ffffff');
+                document.querySelector('meta[name=theme-color]')?.setAttribute('content', isDark ? '#080c15' : '#ffffff');
             },
         });
 
@@ -123,21 +123,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex">
-    <meta name="theme-color" content="#101010" id="theme-color-meta" />
+    <meta name="theme-color" content="#080c15" id="theme-color-meta" />
     <meta name="color-scheme" content="dark light" />
-    <meta name="Description" content="Coolify: An open-source & self-hostable Heroku / Netlify / Vercel alternative" />
+    <meta name="Description" content="Tekkura Cloud Platform" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@coolifyio" />
-    <meta name="twitter:title" content="Coolify" />
-    <meta name="twitter:description" content="An open-source & self-hostable Heroku / Netlify / Vercel alternative." />
-    <meta name="twitter:image" content="https://cdn.coollabs.io/og-images/coolify.png" />
+    <meta name="twitter:site" content="@tekkura" />
+    <meta name="twitter:title" content="Tekkura" />
+    <meta name="twitter:description" content="Tekkura Cloud Platform" />
+    <meta name="twitter:image" content="{{ asset('favicon.png') }}" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://coolify.io" />
-    <meta property="og:title" content="Coolify" />
-    <meta property="og:description" content="An open-source & self-hostable Heroku / Netlify / Vercel alternative." />
-    <meta property="og:site_name" content="Coolify" />
-    <meta property="og:image" content="https://cdn.coollabs.io/og-images/coolify.png" />
+    <meta property="og:url" content="https://my.tekkura.cloud" />
+    <meta property="og:title" content="Tekkura" />
+    <meta property="og:description" content="Tekkura Cloud Platform" />
+    <meta property="og:site_name" content="Tekkura" />
+    <meta property="og:image" content="{{ asset('favicon.png') }}" />
     @use('App\Models\InstanceSettings')
     @php
 
@@ -152,7 +152,7 @@
             }
         }
     @endphp
-    <title>{{ $name }}{{ $title ?? 'Coolify' }}</title>
+    <title>{{ $name }}{{ $title ?? 'Tekkura' }}</title>
     @env('local')
         <link rel="icon" href="{{ asset('coolify-logo-dev-transparent.png') }}" type="image/png" />
     @else
@@ -161,14 +161,14 @@
     @endenv
     <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}" />
     <link rel="manifest" href="{{ asset('site.webmanifest') }}" />
-    <meta name="apple-mobile-web-app-title" content="Coolify" />
+    <meta name="apple-mobile-web-app-title" content="Tekkura" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     @vite(['resources/js/app.js', 'resources/css/app.css'])
     <script>
         // Update theme-color meta tag (non-critical, can run async)
         const t = localStorage.theme || 'dark';
         const isDark = t === 'dark' || t === 'custom' || (t === 'system' && matchMedia('(prefers-color-scheme: dark)').matches);
-        document.getElementById('theme-color-meta')?.setAttribute('content', isDark ? '#101010' : '#ffffff');
+        document.getElementById('theme-color-meta')?.setAttribute('content', isDark ? '#080c15' : '#ffffff');
     </script>
     <style>
         [x-cloak] {

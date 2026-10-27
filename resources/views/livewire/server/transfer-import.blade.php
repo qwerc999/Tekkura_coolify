@@ -1,6 +1,6 @@
 <div class="w-full">
     <x-slot:title>
-        Import server | Coolify
+        Import server | Tekkura
     </x-slot>
 
     <div class="mb-5 flex min-h-9 flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">

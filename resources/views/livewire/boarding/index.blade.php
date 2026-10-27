@@ -1,6 +1,6 @@
 @php use App\Enums\ProxyTypes; @endphp
 <x-slot:title>
-    Onboarding | Coolify
+    Onboarding | Tekkura
     </x-slot>
     <section class="application-settings-form w-full py-6">
         <div class="flex w-full flex-col items-center space-y-6">

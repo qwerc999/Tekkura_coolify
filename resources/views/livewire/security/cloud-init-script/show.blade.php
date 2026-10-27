@@ -17,7 +17,7 @@
         </form>
     @else
     <x-slot:title>
-        {{ $cloudInitScript->name }} | Cloud-Init Scripts | Coolify
+        {{ $cloudInitScript->name }} | Cloud-Init Scripts | Tekkura
     </x-slot>
 
     <x-security.settings-layout>

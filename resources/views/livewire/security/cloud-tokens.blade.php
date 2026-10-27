@@ -1,6 +1,6 @@
 <div>
     <x-slot:title>
-        Cloud Tokens | Coolify
+        Cloud Tokens | Tekkura
     </x-slot>
 
     <x-security.settings-layout>

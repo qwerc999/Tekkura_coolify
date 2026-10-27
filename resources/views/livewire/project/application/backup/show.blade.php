@@ -1,6 +1,6 @@
 <div>
     <x-slot:title>
-        {{ data_get_str($application, 'name')->limit(10) }} > Backups | Coolify
+        {{ data_get_str($application, 'name')->limit(10) }} > Backups | Tekkura
     </x-slot>
 
     <livewire:project.application.heading :application="$application" wire:key="application-heading-backup-show" />

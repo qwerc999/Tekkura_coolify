@@ -1,6 +1,6 @@
 <div @if ($type !== 'server') wire:init="loadContainers" @endif>
     <x-slot:title>
-        {{ data_get_str($resource, 'name')->limit(10) }} > Terminal | Coolify
+        {{ data_get_str($resource, 'name')->limit(10) }} > Terminal | Tekkura
     </x-slot>
 
     @if ($type === 'application')

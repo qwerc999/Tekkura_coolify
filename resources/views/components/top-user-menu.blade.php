@@ -120,15 +120,6 @@
             </x-slot:content>
             <livewire:help />
         </x-modal-input>
-        @if (isSubscribed() || !isCloud())
-            <a href="https://coolify.io/sponsorships" target="_blank" rel="noopener noreferrer"
-                class="listbox-option">
-                <span class="flex items-center gap-2">
-                    <x-reicon name="sponsor" class="size-4 text-pink-500" />
-                    Sponsor us
-                </span>
-            </a>
-        @endif
 
         <div class="my-1 h-px bg-neutral-200 dark:bg-white/[0.07]"></div>
 

@@ -1,6 +1,6 @@
 <div>
     <x-slot:title>
-        {{ data_get_str($server, 'name')->limit(10) }} > Terminal Access | Coolify
+        {{ data_get_str($server, 'name')->limit(10) }} > Terminal Access | Tekkura
     </x-slot>
 
     <livewire:server.navbar :server="$server" />

@@ -8,7 +8,7 @@
         ];
     @endphp
     <x-slot:title>
-        Team Danger Zone | Coolify
+        Team Danger Zone | Tekkura
     </x-slot>
 
     <x-team.settings-layout>

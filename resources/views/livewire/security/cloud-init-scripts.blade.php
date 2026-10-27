@@ -1,6 +1,6 @@
 <div>
     <x-slot:title>
-        Cloud-Init Scripts | Coolify
+        Cloud-Init Scripts | Tekkura
     </x-slot>
 
     <x-security.settings-layout>

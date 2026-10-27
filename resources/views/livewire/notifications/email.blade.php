@@ -1,6 +1,6 @@
 <div>
     <x-slot:title>
-        Notifications | Coolify
+        Notifications | Tekkura
     </x-slot>
 
     <x-notification.settings-layout>

@@ -43,7 +43,7 @@
         </div>
     @else
     <x-slot:title>
-        {{ $private_key->name }} | Private Keys | Coolify
+        {{ $private_key->name }} | Private Keys | Tekkura
     </x-slot>
 
     <x-security.settings-layout>

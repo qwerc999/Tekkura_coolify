@@ -1,6 +1,6 @@
 <div>
     <x-slot:title>
-        Sentinel Configuration | Coolify
+        Sentinel Configuration | Tekkura
     </x-slot>
     <livewire:server.navbar :server="$server" />
     <div

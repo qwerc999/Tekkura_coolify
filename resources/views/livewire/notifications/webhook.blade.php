@@ -1,6 +1,6 @@
 <div>
     <x-slot:title>
-        Webhook Notifications | Coolify
+        Webhook Notifications | Tekkura
     </x-slot>
 
     <x-notification.settings-layout>

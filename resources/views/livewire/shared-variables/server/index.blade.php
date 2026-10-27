@@ -1,5 +1,5 @@
 <div>
-    <x-slot:title>Server Variables | Coolify</x-slot>
+    <x-slot:title>Server Variables | Tekkura</x-slot>
 
     <x-shared-variables.layout>
         <div class="w-full" x-data="{

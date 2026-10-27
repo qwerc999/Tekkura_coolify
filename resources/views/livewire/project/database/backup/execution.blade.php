@@ -1,6 +1,6 @@
 <div>
     <x-slot:title>
-        {{ data_get_str($database, 'name')->limit(10) }} > Backup | Coolify
+        {{ data_get_str($database, 'name')->limit(10) }} > Backup | Tekkura
     </x-slot>
 
     <livewire:project.database.heading :database="$database" />

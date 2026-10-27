@@ -1,6 +1,6 @@
 <div class="w-full">
     <x-slot:title>
-        Docker Registries | Coolify
+        Docker Registries | Tekkura
     </x-slot>
 
     <div class="mb-5 flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">

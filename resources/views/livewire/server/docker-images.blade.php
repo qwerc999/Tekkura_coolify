@@ -1,6 +1,6 @@
 <div wire:init="load">
     <x-slot:title>
-        {{ data_get_str($server, 'name')->limit(10) }} > Images | Coolify
+        {{ data_get_str($server, 'name')->limit(10) }} > Images | Tekkura
     </x-slot>
 
     <livewire:server.navbar :server="$server" />

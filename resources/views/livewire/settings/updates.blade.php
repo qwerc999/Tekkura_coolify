@@ -1,6 +1,6 @@
 <div>
     <x-slot:title>
-        Update Settings | Coolify
+        Update Settings | Tekkura
     </x-slot>
 
     <x-settings.layout>

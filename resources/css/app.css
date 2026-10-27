@@ -20,57 +20,51 @@
     --font-geist-sans: 'Geist Sans', Inter, sans-serif;
     --font-logs: 'Geist Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
 
-    --color-base: oklch(17.3% 0 0);
-    --color-warning: oklch(88.13% 0.1507 91.7);
-    --color-warning-50: oklch(98.73% 0.0262 102.21);
-    --color-warning-100: oklch(97.29% 0.0693 103.19);
-    --color-warning-200: oklch(94.51% 0.1243 101.54);
-    --color-warning-300: oklch(90.52% 0.1657 98.11);
-    --color-warning-400: oklch(88.13% 0.1507 91.7);
-    --color-warning-500: oklch(86.06% 0.1731 91.94);
-    --color-warning-600: oklch(68.06% 0.1423 75.83);
-    --color-warning-700: oklch(55.38% 0.1207 66.44);
-    --color-warning-800: oklch(47.62% 0.1034 61.91);
-    --color-warning-900: oklch(42.1% 0.0897 57.71);
+    --color-base: oklch(16.9% 0.025 265.16);
+    --color-warning: oklch(79.7% 0.134 211.53);
+    --color-warning-50: oklch(98.4% 0.019 200.87);
+    --color-warning-100: oklch(95.4% 0.044 205.31);
+    --color-warning-200: oklch(91.0% 0.075 208.47);
+    --color-warning-300: oklch(85.4% 0.114 210.94);
+    --color-warning-400: oklch(79.7% 0.134 211.53);
+    --color-warning-500: oklch(71.5% 0.126 215.22);
+    --color-warning-600: oklch(60.9% 0.111 221.72);
+    --color-warning-700: oklch(52.0% 0.094 223.13);
+    --color-warning-800: oklch(43.0% 0.080 224.00);
+    --color-warning-900: oklch(35.0% 0.065 225.00);
     --color-success: oklch(72.27% 0.192 149.58);
     --color-error: oklch(57.71% 0.2152 27.33);
-    --color-coollabs-50: oklch(96.33% 0.0206 301.15);
-    --color-coollabs: oklch(49.65% 0.2709 289.33);
-    --color-coollabs-100: oklch(52.34% 0.287 289.16);
-    --color-coollabs-200: oklch(43.76% 0.2369 289.82);
-    --color-coollabs-300: oklch(38.04% 0.2031 290.47);
-    --color-coolgray-100: oklch(20.9% 0 0);
-    --color-coolgray-200: oklch(24.35% 0 0);
-    --color-coolgray-300: oklch(26.03% 0 0);
-    --color-coolgray-400: oklch(27.68% 0 0);
-    --color-coolgray-500: oklch(31.71% 0 0);
+    --color-coollabs-50: oklch(98.4% 0.019 200.87);
+    --color-coollabs: oklch(71.5% 0.126 215.22);
+    --color-coollabs-100: oklch(79.7% 0.134 211.53);
+    --color-coollabs-200: oklch(60.9% 0.111 221.72);
+    --color-coollabs-300: oklch(52.0% 0.094 223.13);
+    --color-coolgray-100: oklch(24.5% 0.040 264.50);
+    --color-coolgray-200: oklch(28.6% 0.047 263.41);
+    --color-coolgray-300: oklch(33.5% 0.050 262.50);
+    --color-coolgray-400: oklch(38.0% 0.050 262.50);
+    --color-coolgray-500: oklch(43.0% 0.050 262.50);
 
     /* Graphite design language (ported from ref/frontend). Layered neutral
        surfaces + translucent hairlines. See DESIGN.md. */
     /* Content canvas: the darkest shell layer (sRGB ~10). Hex, not oklch:
        oklch lightness compresses to near-black below ~15%, so oklch(7.5%)
        renders as sRGB 1 with no visible step. */
-    --color-app: oklch(14.48% 0 0);
-    /* Sidebar + topbar chrome (sRGB ~20): a clear step lighter than the content
-       canvas so the shell chrome separates from the content area. */
-    --color-panel: oklch(19.13% 0 0);
-    /* Pure neutral (r=g=b). Were cool-tinted (#161618/#1c1c1e/#26262a, b>r),
-       which clashed with the neutral panel ladder. */
-    --color-surface: oklch(20.02% 0 0);
-    --color-raised: oklch(22.64% 0 0);
-    --color-selected: oklch(26.86% 0 0);
+    --color-app: oklch(16.9% 0.025 265.16);
+    --color-panel: oklch(20.2% 0.034 265.48);
+    --color-surface: oklch(24.5% 0.040 264.50);
+    --color-raised: oklch(28.6% 0.047 263.41);
+    --color-selected: oklch(33.5% 0.050 262.50);
     --color-fg: oklch(96.12% 0 0);
     --color-fg-dim: oklch(76.99% 0 0);
-    /* Tertiary text. Raised from #6e6e74 (3.78:1 on base, failed WCAG AA)
-       to #7e7e84 so 13-14px text clears 4.5:1 on the dark surface ladder. */
-    --color-fg-faint: oklch(59.31% 0 0);
-    --color-accent: oklch(49.65% 0.2709 289.33);
+    --color-fg-faint: oklch(65% 0 0);
+    --color-accent: oklch(71.5% 0.126 215.22);
     --color-accent-foreground: oklch(100.0% 0 0);
     --color-hairline: oklch(100.0% 0 0 / 0.08);
-    --color-nav-text: oklch(43.86% 0 0);
-    --color-nav-muted: oklch(51.03% 0 0);
-    --color-nav-active: oklch(20.46% 0 0);
-    --color-log: oklch(15.91% 0 0);
+    --color-nav-text: oklch(75.4% 0.054 262.06);
+    --color-nav-muted: oklch(61% 0 0);
+    --color-nav-active: oklch(96.12% 0 0);
+    --color-log: oklch(16.9% 0.025 265.16);
 
     --shadow-modal: 0 24px 64px rgba(0, 0, 0, 0.55), 0 4px 16px rgba(0, 0, 0, 0.4);
     /* One restrained lift shared by every dropdown/menu/listbox panel and the
@@ -1199,39 +1193,21 @@ html:not(.dark) .application-console-shell[data-console-theme="system"] .termina
 }
 
 .dark {
-    --color-accent: oklch(88.13% 0.1507 91.7);
-    /* Dark surface ladder in hex (sRGB), not oklch: oklch lightness compresses
-       to near-black below ~15%, so oklch(15%) rendered as sRGB 11 and cards
-       could not lift off the content canvas (sRGB 10). These give clear,
-       visible steps: content 10 -> elevated 22 -> base 28 -> recessed 34.
-       Pure neutral (r=g=b), matching the neutral borders/text and the light
-       ladder, so every panel shares one temperature (no blue cast). */
-    --coollabs-canvas: oklch(14.48% 0 0);
-    --coollabs-elevated: oklch(20.02% 0 0);
-    --coollabs-recessed: oklch(25.2% 0 0);
-    --coollabs-base: oklch(22.64% 0 0);
-    --coollabs-fill: oklch(29.31% 0 0);
-    --coollabs-line: oklch(32% 0 0);
-    /* Crisped from 26.9% (1.36:1 on canvas) to 32% (1.63:1) so dark cards
-       and tables show a visible edge instead of blending into the canvas. */
-    --coollabs-hairline: oklch(32% 0 0);
-    --coollabs-subtle: oklch(70.8% 0 0);
-    /* Neutral (was #a8a8b0 / #7a7a84, both cool-tinted). Sidebar text now shares
-       the same neutral temperature as the content text, so the sidebar no longer
-       reads cooler than the panels/cards. */
-    --color-nav-text: oklch(73.8% 0 0);
-    /* Raised from 58.97% (4.47:1 on panel, just under AA) to 61% (4.86:1) so the
-       11px sidebar section labels clear 4.5:1. */
+    --color-accent: oklch(79.7% 0.134 211.53);
+    --color-warning: oklch(79.7% 0.134 211.53);
+    /* Tekkura slate-navy surface ladder */
+    --coollabs-canvas: oklch(16.9% 0.025 265.16);
+    --coollabs-elevated: oklch(20.2% 0.034 265.48);
+    --coollabs-recessed: oklch(28.6% 0.047 263.41);
+    --coollabs-base: oklch(24.5% 0.040 264.50);
+    --coollabs-fill: oklch(28.6% 0.047 263.41);
+    --coollabs-line: oklch(28.6% 0.047 263.41 / 0.7);
+    --coollabs-hairline: oklch(28.6% 0.047 263.41);
+    --coollabs-subtle: oklch(75.4% 0.054 262.06);
+    --color-nav-text: oklch(75.4% 0.054 262.06);
     --color-nav-muted: oklch(61% 0 0);
     --color-nav-active: oklch(96.12% 0 0);
-    /* Tertiary text. Base token (59.31%) only clears 4.5:1 on app/panel; it
-       failed on surface/raised/selected (4.46/4.20/3.73). Raised to 64% so the
-       313 dark:text-fg-faint usages clear AA across the whole surface ladder,
-       while staying clearly dimmer than fg-dim (76.99%). */
     --color-fg-faint: oklch(65% 0 0);
-    /* Error text. The base error red (57.71%) failed on every dark surface
-       (4.10/3.75/3.53). Brightened for dark mode so text-error clears AA on the
-       card ladder while staying unmistakably red. */
     --color-error: oklch(66% 0.2 27.33);
 }
 
@@ -1253,7 +1229,7 @@ html:not(.dark) {
 /* Theme surfaces are derived from one brand color. Changing
    --theme-base-color is enough to generate a complete dark surface ladder. */
 html[data-theme="custom"] {
-    --theme-base-color: oklch(49.65% 0.2709 289.33);
+    --theme-base-color: oklch(71.5% 0.126 215.22);
     --theme-bright-color: color-mix(in srgb, var(--theme-base-color) 85%, oklch(100% 0 0));
     --theme-scrollbar-thumb: color-mix(in srgb, var(--theme-bright-color) 70%, var(--theme-accent-foreground));
     --theme-border-color: color-mix(in oklab, var(--theme-base-color) 42%, oklch(44.19% 0.0146 285.79));
@@ -1462,12 +1438,17 @@ html[data-theme="custom"] textarea:disabled {
     min-height: 100dvh;
     display: flex;
     background:
-        radial-gradient(circle at 50% 0%, color-mix(in oklab, var(--color-coollabs) 9%, transparent), transparent 34rem),
-        var(--coollabs-canvas);
-    color: #171717;
+        radial-gradient(120% 80% at 15% 10%, rgba(34, 211, 238, 0.16), transparent 60%),
+        radial-gradient(90% 70% at 85% 95%, rgba(6, 182, 212, 0.12), transparent 55%),
+        linear-gradient(160deg, #0f1626 0%, #0a0f1a 60%, #080c15 100%);
+    color: #f1f5f9;
 }
 
 .dark .auth-shell {
+    background:
+        radial-gradient(120% 80% at 15% 10%, rgba(34, 211, 238, 0.16), transparent 60%),
+        radial-gradient(90% 70% at 85% 95%, rgba(6, 182, 212, 0.12), transparent 55%),
+        linear-gradient(160deg, #0f1626 0%, #0a0f1a 60%, #080c15 100%);
     color: var(--color-fg);
 }
 
@@ -1483,9 +1464,11 @@ html[data-theme="custom"] textarea:disabled {
 .auth-card {
     width: min(100%, 27rem);
     overflow: hidden;
-    border-radius: 10px;
-    background: var(--coollabs-elevated);
-    box-shadow: 0 0 0 1px var(--coollabs-hairline), 0 20px 60px rgb(0 0 0 / 0.14);
+    border-radius: 12px;
+    background: oklch(20.2% 0.034 265.48 / 0.90);
+    backdrop-filter: blur(16px);
+    border: 1px solid oklch(28.6% 0.047 263.41);
+    box-shadow: 0 0 0 1px rgba(34, 211, 238, 0.1), 0 20px 60px rgb(0 0 0 / 0.5);
 }
 
 .auth-card-heading {

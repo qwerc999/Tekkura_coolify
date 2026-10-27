@@ -1,6 +1,6 @@
 <div class="application-settings-form w-full max-w-none">
     <x-slot:title>
-        Subscribe | Coolify
+        Subscribe | Tekkura
     </x-slot>
 
     <x-dashboard.navbar section="subscription" title="Subscription"

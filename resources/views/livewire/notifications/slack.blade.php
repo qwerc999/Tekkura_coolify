@@ -1,6 +1,6 @@
 <div>
     <x-slot:title>
-        Slack Notifications | Coolify
+        Slack Notifications | Tekkura
     </x-slot>
 
     <x-notification.settings-layout>

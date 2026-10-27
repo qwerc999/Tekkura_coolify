@@ -48,7 +48,7 @@
 <div class="{{ $selected_uuid === 'default' ? '' : 'terminal-page' }} application-settings-form"
     x-init="$wire.loadContainers()">
     <x-slot:title>
-        Terminal | Coolify
+        Terminal | Tekkura
     </x-slot>
 
     <header class="terminal-page-header shrink-0">

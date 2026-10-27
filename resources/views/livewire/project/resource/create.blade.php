@@ -1,6 +1,6 @@
 <div>
     <x-slot:title>
-        {{ data_get_str($project, 'name')->limit(10) }} > New | Coolify
+        {{ data_get_str($project, 'name')->limit(10) }} > New | Tekkura
     </x-slot>
     @if ($type === 'public')
         <livewire:project.new.public-git-repository :type="$type" />

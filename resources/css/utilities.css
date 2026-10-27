@@ -40,11 +40,11 @@
     }
 
     &:focus-visible {
-        box-shadow: inset 4px 0 0 #6b16ed, inset 0 0 0 1px #e5e5e5;
+        box-shadow: inset 4px 0 0 #06b6d4, inset 0 0 0 1px #e5e5e5;
     }
 
     &:where(.dark, .dark *):focus-visible {
-        box-shadow: inset 4px 0 0 #fcd452, inset 0 0 0 1px #242424;
+        box-shadow: inset 4px 0 0 #22d3ee, inset 0 0 0 1px #242424;
     }
 }
 
@@ -344,7 +344,7 @@
 }
 
 @utility bg-coollabs-gradient {
-    @apply from-purple-500 via-pink-500 to-red-500 bg-linear-to-r;
+    @apply from-cyan-400 via-teal-500 to-blue-600 bg-linear-to-r;
 }
 
 @utility text-helper {

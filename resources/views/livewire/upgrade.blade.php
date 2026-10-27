@@ -172,7 +172,7 @@
             </template>
         </div>
     @elseif ($fullButton)
-        <p class="text-sm text-neutral-600 dark:text-fg-dim">Coolify is up to date.</p>
+        <p class="text-sm text-neutral-600 dark:text-fg-dim">Tekkura is up to date.</p>
     @endif
 </div>
 
@@ -376,9 +376,9 @@
 
             getReviveStatusMessage(elapsedMinutes, attempts) {
                 if (elapsedMinutes === 0) {
-                    return `Waiting for Coolify to come back online... (attempt ${attempts})`;
+                    return `Waiting for Tekkura to come back online... (attempt ${attempts})`;
                 } else if (elapsedMinutes < 2) {
-                    return `Waiting for Coolify to come back online... (${elapsedMinutes} minute${elapsedMinutes !== 1 ? 's' : ''} elapsed)`;
+                    return `Waiting for Tekkura to come back online... (${elapsedMinutes} minute${elapsedMinutes !== 1 ? 's' : ''} elapsed)`;
                 } else if (elapsedMinutes < 5) {
                     return `Update in progress, this may take several minutes... (${elapsedMinutes} minutes elapsed)`;
                 } else if (elapsedMinutes < 10) {
@@ -511,7 +511,7 @@
                             this.serviceDown = true;
                             this.instanceWentDown = true;
                             this.currentStep = 4;
-                            this.currentStatus = 'Coolify is restarting with the new version...';
+                            this.currentStatus = 'Tekkura is restarting with the new version...';
                             if (this.checkUpgradeStatusInterval) {
                                 clearInterval(this.checkUpgradeStatusInterval);
                                 this.checkUpgradeStatusInterval = null;

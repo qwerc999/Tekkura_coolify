@@ -1,6 +1,6 @@
 <div>
     <x-slot:title>
-        Server Variables | Coolify
+        Server Variables | Tekkura
     </x-slot>
 
     <x-shared-variables.editor :resource="$server"

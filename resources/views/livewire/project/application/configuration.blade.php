@@ -1,6 +1,6 @@
 <div>
     <x-slot:title>
-        {{ data_get_str($application, 'name')->limit(10) }} > Configuration | Coolify
+        {{ data_get_str($application, 'name')->limit(10) }} > Configuration | Tekkura
     </x-slot>
     <livewire:project.shared.configuration-checker :resource="$application" />
     <livewire:project.application.heading :application="$application" :wire:key="'application-heading-'.$currentRoute" />

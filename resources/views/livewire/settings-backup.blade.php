@@ -1,6 +1,6 @@
 <div>
     <x-slot:title>
-        Instance Backup | Coolify
+        Instance Backup | Tekkura
     </x-slot>
 
     <x-settings.layout>

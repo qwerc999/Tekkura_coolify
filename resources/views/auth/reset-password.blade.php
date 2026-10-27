@@ -1,6 +1,6 @@
 <x-layout-simple>
     <x-auth.shell title="{{ __('auth.reset_password') }}"
-        description="Choose a strong new password for your Coolify account.">
+        description="Choose a strong new password for your Tekkura account.">
         <div class="flex flex-col gap-4">
             @if (session('status'))
                 <x-auth.alert type="success">{{ session('status') }}</x-auth.alert>

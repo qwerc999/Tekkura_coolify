@@ -1,6 +1,6 @@
 <div>
     <x-slot:title>
-        Sentinel Logs | Coolify
+        Sentinel Logs | Tekkura
     </x-slot>
     <livewire:server.navbar :server="$server" />
     <div

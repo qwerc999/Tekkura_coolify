@@ -1,6 +1,6 @@
 <div>
     <x-slot:title>
-        {{ $name ?: 'GitLab App' }} | Sources | Coolify
+        {{ $name ?: 'GitLab App' }} | Sources | Tekkura
     </x-slot>
 
     @if ($isConnected)

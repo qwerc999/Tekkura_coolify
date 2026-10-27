@@ -1,6 +1,6 @@
 <div class="application-settings-form w-full">
     <x-slot:title>
-        Storages | Coolify
+        Storages | Tekkura
     </x-slot>
 
     <header class="mb-5 flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">

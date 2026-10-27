@@ -29,7 +29,7 @@
                 @unless ($embedded)
                     <x-slot:title>
                         {{ data_get_str($service, 'name')->limit(10) }} >
-                        {{ data_get_str($serviceApplication, 'name')->limit(10) }} | Coolify
+                        {{ data_get_str($serviceApplication, 'name')->limit(10) }} | Tekkura
                     </x-slot>
                 @endunless
                     <form wire:submit="submitApplication" class="space-y-6">
@@ -169,7 +169,7 @@
                 @unless ($embedded)
                     <x-slot:title>
                         {{ data_get_str($service, 'name')->limit(10) }} >
-                        {{ data_get_str($serviceDatabase, 'name')->limit(10) }} | Coolify
+                        {{ data_get_str($serviceDatabase, 'name')->limit(10) }} | Tekkura
                     </x-slot>
                 @endunless
                 @if ($currentRoute === 'project.service.database.import')

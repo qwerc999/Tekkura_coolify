@@ -1,6 +1,6 @@
 <div class="flex min-h-[calc(100dvh-7.5rem)] flex-col">
     <x-slot:title>
-        {{ data_get_str($application, 'name')->limit(10) }} > Deployment | Coolify
+        {{ data_get_str($application, 'name')->limit(10) }} > Deployment | Tekkura
         </x-slot>
         <livewire:project.shared.configuration-checker :resource="$application" />
         <livewire:project.application.heading :application="$application" wire:key="application-heading-deployment-show" />

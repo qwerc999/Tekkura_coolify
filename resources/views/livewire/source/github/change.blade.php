@@ -1,6 +1,6 @@
 <div>
     <x-slot:title>
-        {{ $github_app->name ?: 'GitHub App' }} | Sources | Coolify
+        {{ $github_app->name ?: 'GitHub App' }} | Sources | Tekkura
     </x-slot>
 
     @if (session('error'))

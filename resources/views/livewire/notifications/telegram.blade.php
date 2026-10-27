@@ -1,6 +1,6 @@
 <div>
     <x-slot:title>
-        Telegram Notifications | Coolify
+        Telegram Notifications | Tekkura
     </x-slot>
 
     <x-notification.settings-layout>

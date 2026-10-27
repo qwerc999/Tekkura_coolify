@@ -45,7 +45,7 @@
     },
 }">
     <x-slot:title>
-        {{ data_get_str($application, 'name')->limit(10) }} > Backups | Coolify
+        {{ data_get_str($application, 'name')->limit(10) }} > Backups | Tekkura
     </x-slot>
     <livewire:project.shared.configuration-checker :resource="$application" />
     <livewire:project.application.heading :application="$application"

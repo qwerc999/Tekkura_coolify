@@ -1,6 +1,6 @@
 <div>
     <x-slot:title>
-        Proxy Logs | Coolify
+        Proxy Logs | Tekkura
     </x-slot>
     <livewire:server.navbar :server="$server" />
     <div

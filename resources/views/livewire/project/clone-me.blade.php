@@ -1,5 +1,5 @@
 <div>
-    <x-slot:title>{{ data_get_str($project, 'name')->limit(10) }} > Clone | Coolify</x-slot>
+    <x-slot:title>{{ data_get_str($project, 'name')->limit(10) }} > Clone | Tekkura</x-slot>
     <div class="w-full max-w-none">
         <header class="mb-5">
             <h1 class="truncate text-[24px]! leading-7! font-semibold! tracking-tight!">{{ $environment->name }}</h1>

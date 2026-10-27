@@ -23,7 +23,7 @@ $appListboxOptions = array_merge(
 <div class="flex w-full min-w-0 flex-col gap-6">
     @if ($scopedServerUuid === null)
         <x-slot:title>
-            Analytics | Coolify
+            Analytics | Tekkura
         </x-slot>
     @endif
 

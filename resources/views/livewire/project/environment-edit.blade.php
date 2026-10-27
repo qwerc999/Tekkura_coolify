@@ -1,5 +1,5 @@
 <div>
-    <x-slot:title>{{ data_get_str($environment, 'name')->limit(10) }} > Edit | Coolify</x-slot>
+    <x-slot:title>{{ data_get_str($environment, 'name')->limit(10) }} > Edit | Tekkura</x-slot>
     <div class="w-full max-w-none">
         <header class="mb-5 flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
             <div class="min-w-0">
